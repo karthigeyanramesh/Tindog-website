@@ -1,0 +1,271 @@
+#title{  
+    text-align: left;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+
+
+.container-fluids{
+    padding: 3% 15% 7% 15%;
+}
+
+
+/* HEADINGS  */
+
+.big-heading{
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+        
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+/* SECTIONS */
+
+.colored-section{
+    background-color:#ff4c68 ;
+    color: #fff;
+
+}
+
+.white-section{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+/* NAVBAR  */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+font-size: 2rem;
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px 0 18px;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* DOWNLAOD BUTTONS */
+
+.download-button{
+    margin: 5% 3% 0 3%;
+}
+
+.apple-button{
+    margin-left: 0;
+}
+
+/* TITLE IMAGE */
+.title-image{
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 70px;
+/* When YOU CHANGE THE posiSITION TO ABOLOUTE THE IMAGE RESEIZES ITS WIDTH TO THE PARENT I.E. 
+    THE TITLE SECTION HENCE YOU GOTTA REDUCE THE WIDTH ACCORDINGLY ; */
+    
+}
+
+
+/* BAR  */
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+/* Feature */
+.feature-box{
+    
+    
+    padding: 5%;
+    
+    
+
+}
+
+.heading-feature{
+    font-size: 1.5rem;
+    
+}
+
+#features{
+    color: black;
+}
+
+/* 
+Key lesson --> never  define a width and simaltanosly use responsive columns at the same time as it wont be responsive
+ */
+
+.fa-solid:hover{
+    color: red;
+    
+}
+
+.fa-solid{
+    margin-bottom: 30px;
+    color: #ef8172;
+}
+    
+
+
+
+.para-icon{
+    color: #8f8f8f;
+
+}
+
+
+
+/* TESTEMONIAL */
+
+#testimonials{
+    background-color: #ef8172;
+    
+
+}
+
+
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    margin-top: 5%;
+}
+
+.carousel-item{
+    padding: 7% 15% 7% 15%;
+
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* PRESS */
+
+#press{
+    background-color: #ef8172;
+   padding-bottom: 3%;
+}
+
+.image-press{
+    width: 15%;
+    margin: 20px 20px 15px 20px;
+}
+
+/* PRCING  */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2% ;
+}
+
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+@media( max-width:993px){
+    .title-image{position: static;
+        width: 60%;
+        transform: rotate(0);
+        padding-top: 50px;
+        margin-left: 0;
+
+        
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
+
+
+
+.apple-button{
+    margin-top: 10px;
+
+}
+
+.google-button{
+    margin-top: 10px;
+}
+
+
+/* CTA */
+#cta{
+    padding-bottom: 90px;
+    padding-top: 90px;
+    text-align: center;
+    
+
+}
+
+.cta-note{
+    color: #fff;
+    font-size: 250%;
+    line-height: 3rem;
+    padding-left: 25%;
+    padding-right: 25%;
+
+
+}
+
+
+
+
+/* FOOTER */
+
+#footer{
+    padding-top: 70px;
+}
+
+.footer-icons{
+    padding: 10px;
+}
+
+.footer-notes{
+    color: #8f8f8f;
+}
+
+.envelope{
+    color: black;
+}
